@@ -1,0 +1,27 @@
+// git/////////////////////////////////////
+
+// proveriti verziju gita
+git --version
+
+// pokazi gitu ko si ti, global za sve repozitorijume, bez global samo za jedan
+git config global user.name "voja3005"
+git config global user.email "voja3005@gmail.com"
+
+// novi folder
+mkdir myproject
+cd myproject
+
+// Inicijalizovati git
+git init
+
+// izlistati fajlove
+ls 
+
+// status
+git statuss
+
+// postaviti na stage okruzenje
+git add index.html
+
+// dodati sve
+git add -all
