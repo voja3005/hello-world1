@@ -34,3 +34,26 @@ git status --short
 
 // direktno komitovanje bez stage okruzenja
 git commit -a -m "Updated index.html with a new line"
+
+// Istorija komitovanja na repozitorijumu
+git log
+
+// git pomoc
+git command -help
+git help --all
+
+// quit
+shift + g - idi na kraj
+q
+
+// nova zasebna verzija glavnog repozitorijuma - branch
+// pomeranje sa master branch na novi branch
+// dodati novi branch
+git branch hello-world-images
+
+// potvrditi branch
+git branch
+
+// proveriti i preci na novi branch
+git checkout hello-world-images
+
